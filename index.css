@@ -57,3 +57,14 @@
     text-align: center;
 }
 
+.float{
+    display: inline-flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#fastfood-img{
+    display: block;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 10px 10px 5px lightgrey;
+    width: 100%; height: 80%;
+}
