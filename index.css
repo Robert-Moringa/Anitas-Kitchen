@@ -1,13 +1,17 @@
-.nav{
+#nav{
     background-image: url('Images/landing.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-top: 0px;
 }
 #logo{
     display: flex;
     justify-content: center;
+    padding-top: 5%;
 }
 .explanation{
     color: white;
     text-align: center;
+    padding-bottom: 4%;
+    padding-top: 2%;
 }
