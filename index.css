@@ -94,6 +94,8 @@
 }
 #four{
     background-image: url("Images/foodsBg.jpg");
+    height: 100%;
+    width: 100%;
 }
 #inside{
     background-color: white;
@@ -101,13 +103,26 @@
     margin-bottom: 20%;
     margin-left: 15%;
     margin-right: 15%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    box-sizing: content-box;
 }
 #insideinside{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
-    
+    justify-content: space-around;
+    text-align: center;
+    background-color: lightgrey;
+    border: 1px solid darkgrey;
+}
+#inside-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#insideinside>a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border-left: 1px solid darkgrey;
 }
