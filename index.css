@@ -1,4 +1,4 @@
-#nav{
+#id1{
     background-image: url('Images/landing.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -15,4 +15,10 @@
     padding-bottom: 4%;
     padding-top: 2%;
     font-size: 200%;
+}
+
+#variety{
+    height: 6%; width: 100%;
+    display: flex;
+    flex-direction: row;
 }
