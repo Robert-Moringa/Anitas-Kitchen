@@ -59,25 +59,16 @@
 
 .float{
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: 20%;
-    margin-top: 5%;
 }
 #fastfood-img{
     display: block;
     padding: 5px 5px 5px 5px;
     box-sizing: content-box;
-    width: 400%; height: 450%;
-}
-#fastfood-img>#f1{
-    padding-bottom: 0px;
-    border-bottom: none;
-}
-#fastfood-img>#f2{
-    padding-top: 0px;
-    border-top: none;
+    width: 280%; height: 250%;
 }
 .viewgallery{
     color: #F15A29;
@@ -91,10 +82,13 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+#drinks{
+    text-align: right;
+}
 #drinks-img{
     display: flex;
     flex-direction: row;
-    width: 400%; height: 450%;
+    width: 150%; height: 100%;
     padding: 5px 5px 5px 5px;
     border: 1 px solid lightgrey;
 }
