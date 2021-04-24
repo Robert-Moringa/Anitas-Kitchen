@@ -81,4 +81,6 @@
 }
 .viewgallery{
     color: #F15A29;
+    border: 1px solid #F15A29;
+    text-decoration: none;
 }
