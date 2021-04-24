@@ -88,4 +88,13 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#drinks-img{
+    display: flex;
+    flex-direction: row;
+    width: 400%; height: 450%;
+    padding: 5px 5px 5px 5px;
+    border: 1 px solid lightgrey;
 }
