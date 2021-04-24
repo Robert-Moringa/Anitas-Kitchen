@@ -25,6 +25,7 @@
 #textbox{
     text-align: center;
     display: block;
+    height: 6%; width: 25%;
 }
 #t1{
     background-color: lightgray;
@@ -36,3 +37,19 @@
     height: 3%; width: 25%;
     color: white;
 }
+#breakfast{
+    height: 6%; width: 25%;
+    color: white;
+    background-image: url('Images/breakfast.jpg');
+}
+#lunch{
+    height: 6%; width: 25%;
+    color: white;
+    background-image: url('Images/lunch.jpg');
+}
+#dinner{
+    height: 6%; width: 25%;
+    color: white;
+    background-image: url('Images/dinner.jpg');
+}
+
