@@ -16,6 +16,12 @@
     padding-top: 2%;
     font-size: 200%;
 }
+nav{
+    margin-left: 5%;
+    margin-top: 10%;
+    color: white;
+    font-size: 200%;
+}
 
 #variety{
     height: 6%; width: 100%;
@@ -23,6 +29,7 @@
     flex-direction: row;
 }
 #textbox{
+    margin-top: 0%;
     text-align: center;
     display: block;
     width: 100%;
@@ -57,7 +64,7 @@
     text-align: center;
 }
 
-.float{
+#float{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -213,5 +220,4 @@
     color: white;
     text-align: center;
     font-size: 90%;
-    padding-top: 3%;
-}
+    padding-top: 

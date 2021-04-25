@@ -9,7 +9,25 @@
     <body>
         <div id="id1">
             <nav>
-
+                <div id="Sidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#about">About</a>
+                    <a href="#float">Fast food</a>
+                    <a href="#drinks">Drinks</a>
+                    <a href="#customers">Customers</a>
+                </div>
+                <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                  
+                <script>
+                  function openNav() {
+                    document.getElementById("Sidenav").style.width = "5%";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                  }
+                </script>
+                  
             </nav>
             <div id="logo">
                 <img  src="Images/logoBig.png" height="10%" width="15%">
@@ -23,10 +41,7 @@
         <div id="variety">
             <div id="textbox">
                 <div id="t1">
-                    <p>Happy Hour</p>
-                </div>
-                <div id="t2">
-                    <P>Party Time</P>
+                    <p>Happy Hour</p><P>Party Time</P>
                 </div>
             </div>
             <div id="breakfast">
@@ -40,7 +55,7 @@
             </div>
         </div>
 
-        <div class="float">
+        <div id="float">
             <div id="fastfood-img">
                 <img id="f1" src="Images/fastFood1.jpg" height="100%" width="100%">
                 <img id="f2" src="Images/fastFood2.jpg" height="100%" width="100%">
@@ -104,7 +119,7 @@
                 </div>
             </div>
             <div id="customers-right">
-                <h4>About Menu</h4>
+                <h4 id="about">About Menu</h4>
                 <p>We are a team of 12 members. We work collectively by assigning different roles to everyone to ensure the success of the annitas kitchen. we intend to expand as times comes. Feel free to make suggestions on how we can better our services.</p>
             </div>
         </div>
