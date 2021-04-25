@@ -155,6 +155,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 15%;
@@ -170,9 +171,8 @@ nav{
     text-align: center;
 }
 #insideinside>a:first-child{
-    border-left: none;
-    border-bottom: none;
     background-color: white;
+    color: #F15A29;
 }
 #inside-img >div >p{
     text-align: center;
@@ -223,6 +223,7 @@ nav{
 #customers-right{
     text-align: center;
     width: 40%;
+    padding-right: 5%;
     
 }
 #customers-right>h4{
