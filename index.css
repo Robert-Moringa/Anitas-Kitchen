@@ -160,3 +160,11 @@
 #customers-right>h4{
     color: #F15A29;
 }
+#email{
+    background-image: url("Images/foodsBg.jpg");
+    width: 100%; height: 500px;
+}
+#email>h4{
+    display: flex;
+    justify-content: center;
+}
