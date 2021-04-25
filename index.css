@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #id1{
     background-image: url('Images/landing.jpg');
@@ -89,6 +89,9 @@ nav{
     padding: 5px 5px 5px 5px;
     
 }
+#float>#fastfood{
+    padding-left: 10px;
+}
 #fastfood-img{
     display: inline-block;
     padding: 5px 5px 5px 5px;
@@ -111,6 +114,7 @@ nav{
 }
 #drinks{
     text-align: right;
+    padding-right: 10px;
 }
 #drinks-img{
     display: flex;
@@ -121,7 +125,7 @@ nav{
 }
 #four{
     background-image: url("Images/foodsBg.jpg");
-    height: 375px;
+    height: 400px;
     width: 100%;
     position: relative;
 }
@@ -183,7 +187,6 @@ nav{
     margin-right: 30%;
     float: left;
     width: 60%;
-    gr
 }
 #customers-left>h4{
     color: #F15A29;
