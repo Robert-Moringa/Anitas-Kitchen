@@ -79,16 +79,18 @@ nav{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-left: 30%;
+    margin-top: 5%;
+    margin-left: 25%;
     margin-right: 20%;
     padding: 5px 5px 5px 5px;
-    outline: solid rgb(233, 233, 233);
+    
 }
 #fastfood-img{
     display: inline-block;
     padding: 5px 5px 5px 5px;
     box-sizing: content-box;
     width: 280%; height: 250%;
+    outline: solid rgb(233, 233, 233);
 }
 .viewgallery{
     color: #F15A29;
@@ -99,6 +101,7 @@ nav{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    margin-top: 5%;
     margin-left: 20%;
     margin-right: 35%;
 }
@@ -110,20 +113,16 @@ nav{
     flex-direction: row;
     width: 150%; height: 100%;
     padding: 5px 5px 5px 5px;
-    border: 1 px solid lightgrey;
+    outline: solid rgb(233, 233, 233);
 }
 #four{
     background-image: url("Images/foodsBg.jpg");
-    height: 100%;
+    height: 375px;
     width: 100%;
+    position: relative;
 }
 #inside{
-    background-color: white;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    margin-left: 15%;
-    margin-right: 15%;
-    box-sizing: content-box;
+    position: absolute;
 }
 #insideinside{
     display: flex;
@@ -132,6 +131,8 @@ nav{
     text-align: center;
     background-color: lightgrey;
     border: 1px solid darkgrey;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 #inside-img{
     display: flex;
@@ -139,6 +140,10 @@ nav{
     justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    
 }
 #insideinside>a{
     color: black;
@@ -149,10 +154,12 @@ nav{
 }
 #insideinside>a:first-child{
     border-left: none;
+    border-bottom: none;
     background-color: white;
 }
 #inside-img >div >p{
     text-align: center;
+    color: #F15A29;
 }
 #customers{
     display: flex;
