@@ -134,3 +134,10 @@
 #inside-img >div >p{
     text-align: center;
 }
+#customers{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
