@@ -203,3 +203,12 @@
     color: white;
     text-align: center;
 }
+#social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom>footer{
+    color: white;
+    text-align: center;
+}
