@@ -207,8 +207,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1%;
 }
 #bottom>footer{
     color: white;
     text-align: center;
+    font-size: 90%;
+    padding-top: 3%;
 }
