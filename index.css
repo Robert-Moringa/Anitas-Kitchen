@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    font-family: Georgia;
 }
 #id1{
     background-image: url('Images/landing.jpg');
@@ -30,6 +31,9 @@ nav{
     height: 210px; width: 100%;
     display: flex;
     flex-direction: row;
+}
+#variety>div:hover{
+    color: lightgrey;
 }
 #textbox{
     margin-top: 0%;
