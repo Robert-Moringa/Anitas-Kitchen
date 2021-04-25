@@ -146,7 +146,17 @@
 #customers-left{
     align-items: center;
     text-align: center;
+    margin-right: 30%;
 }
 #customers-left>h4{
+    color: #F15A29;
+}
+#customers-left>p{
+   display: flex; 
+}
+#customers-right{
+    text-align: center;
+}
+#customers-right>h4{
     color: #F15A29;
 }
