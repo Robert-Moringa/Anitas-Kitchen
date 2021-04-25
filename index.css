@@ -179,6 +179,9 @@
 #email-in{
     text-align: left;
     color: white;
-    padding: 5px 20px 5px 2px;
+    padding: 5px 200px 5px 2px;
     background-color: lightgrey;
+}
+#subscribe{
+    padding: 5px 20px 5px 20px;
 }
