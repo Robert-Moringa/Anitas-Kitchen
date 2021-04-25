@@ -141,4 +141,12 @@
     justify-content: center;
     align-items: center;
     border: 1px solid darkgrey;
+    margin-left: 20%; margin-right: 20%;
+}
+#customers-left{
+    align-items: center;
+    text-align: center;
+}
+#customers-left>h4{
+    color: #F15A29;
 }
