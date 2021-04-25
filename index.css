@@ -30,6 +30,7 @@ nav{
 }
 #textbox{
     margin-top: 0%;
+    float: left;
     text-align: center;
     display: block;
     width: 100%;
